@@ -1,4 +1,4 @@
-# site-dinamico
+# site-dinamico com PHP
 site dinâmico utilizando php; javascript; jquery; css3; font-awesome; .htaccess;
 
 -para testar baixe o XAMP e ligue o servidor apache
