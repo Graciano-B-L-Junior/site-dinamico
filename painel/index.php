@@ -1,0 +1,12 @@
+<?php 
+	include('../config.php');
+	include('../classes/MySql.php');
+	include('../classes/Site.php');
+	include('../classes/Painel.php');
+	include('../classes/Usuario.php');
+	if(Painel::logado() == false){
+		include('login.php');
+	}else{
+		include('main.php');
+	}
+?>
